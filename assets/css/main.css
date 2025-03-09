@@ -144,8 +144,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  max-height: 40px;
+  margin-right: 20px;
 }
 
 .header .logo h1 {
@@ -178,15 +178,15 @@ h6 {
 
 @media (max-width: 1200px) {
   .header .logo {
-    order: 1;
+    order: 3;
   }
 
   .header .header-social-links {
-    order: 2;
+    order: 4;
   }
 
   .header .navmenu {
-    order: 3;
+    order: 5;
   }
 }
 
@@ -223,10 +223,10 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 15px;
+    font-size: 20px;
     padding: 0 2px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -593,6 +593,7 @@ h6 {
   padding: 25px 0;
   position: relative;
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+
 }
 
 .page-title h1 {
@@ -737,10 +738,12 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
+    text-align: center;
   }
 
   .hero h6 {
-    font-size: 16px;
+    font-size: 13px;
+    text-align: center;
   }
 
   .hero .btn-get-started {
@@ -757,8 +760,8 @@ section,
   }
 
   .hero img {
-    margin-top: 10px; /* Espacement entre le texte et l'image sur les petits écrans */
-    margin-bottom: 20px; /* Espacement supplémentaire */
+    margin-top: 0px; /* Espacement entre le texte et l'image sur les petits écrans */
+    /*margin-bottom: 5px; !* Espacement supplémentaire *!*/
   }
 
   .hero .text-content {
