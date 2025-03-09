@@ -144,8 +144,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 20px;
+  max-height: 80px;
+  margin-right: 50px;
 }
 
 .header .logo h1 {
@@ -157,7 +157,7 @@ h6 {
 }
 
 .header .header-social-links {
-  padding-right: 15px;
+  padding-right: 50px;
 }
 
 .header .header-social-links a {
@@ -165,7 +165,7 @@ h6 {
   padding-left: 6px;
   display: inline-block;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .header .header-social-links a:hover {
@@ -178,15 +178,15 @@ h6 {
 
 @media (max-width: 1200px) {
   .header .logo {
-    order: 3;
+    order: 1;
   }
 
   .header .header-social-links {
-    order: 4;
+    order: 2;
   }
 
   .header .navmenu {
-    order: 5;
+    order: 3;
   }
 }
 
