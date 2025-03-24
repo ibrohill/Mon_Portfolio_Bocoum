@@ -797,6 +797,8 @@ section,
 
 .about .about-img {
   max-width: 100%;
+  align-content: center;
+  align-items: center;
   height: auto;
 }
 
@@ -863,6 +865,8 @@ section,
   .about .col-lg-5,
   .about .col-lg-7 {
     text-align: center; /* Centrer le contenu sur les petits écrans */
+    align-items: center;
+    align-content: center;
   }
 
   .about .about-title {
