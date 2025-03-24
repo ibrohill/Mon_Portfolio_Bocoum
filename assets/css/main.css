@@ -638,7 +638,7 @@ section,
 
   section,
   .section {
-    scroll-margin-top: 66px;
+    scroll-margin-top: 40px;
   }
 }
 
@@ -647,14 +647,14 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   position: relative;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -721,7 +721,7 @@ section,
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: left; /* Alignement du bouton à gauche */
 }
 
@@ -748,7 +748,7 @@ section,
 
   .hero .btn-get-started {
     font-size: 14px;
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
 
   .hero .row {
