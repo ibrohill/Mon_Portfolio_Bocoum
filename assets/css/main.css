@@ -760,13 +760,13 @@ section,
   }
 
   .hero img {
-    margin-top: 0px; /* Espacement entre le texte et l'image sur les petits écrans */
-    /*margin-bottom: 5px; !* Espacement supplémentaire *!*/
+    margin-top: 40px; /* Espacement entre le texte et l'image sur les petits écrans */
+    margin-bottom: 5px; /* Espacement supplémentaire */
   }
 
-  .hero .text-content {
-    margin-top: 40px; /* Espacement entre l'image et le texte */
-  }
+  /*.hero .text-content {*/
+  /*  margin-top: 60px; !* Espacement entre l'image et le texte *!*/
+  /*}*/
 }
 /*--------------------------------------------------------------
 # About Section
