@@ -864,9 +864,12 @@ section,
 
   .about .col-lg-5,
   .about .col-lg-7 {
-    text-align: center; /* Centrer le contenu sur les petits écrans */
+    /*text-align: center; !* Centrer le contenu sur les petits écrans *!*/
     align-items: center;
-    align-content: center;
+    margin-left: 50px;
+    /*align-content: center;*/
+    justify-content: center;
+
   }
 
   .about .about-title {
